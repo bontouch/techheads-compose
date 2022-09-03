@@ -98,8 +98,54 @@ object EmployeeData {
         imageResource = R.drawable.photo_alex_n
     )
 
+    private val frida = Employee(
+        name = "Frida Eklund",
+        role = "Cloud & iOS Developer",
+        team = null,
+        notes = "",
+        startDate = LocalDate.parse("2020-05-04"),
+        imageResource = R.drawable.photo_frida
+    )
+
+    private val marthin = Employee(
+        name = "Marthin Freij",
+        role = "Studio Manager",
+        team = null,
+        notes = "",
+        startDate = LocalDate.parse("2019-09-25"),
+        imageResource = R.drawable.photo_marthin
+    )
+
+    private val mikael = Employee(
+        name = "Mikael Konradsson",
+        role = "iOS Developer",
+        team = null,
+        notes = "Likes Swift",
+        startDate = LocalDate.parse("2019-10-28"),
+        imageResource = R.drawable.photo_mikael
+    )
+
+    private val david = Employee(
+        name = "David Jonsén",
+        role = "iOS Developer",
+        team = null,
+        notes = "Likes Swift",
+        startDate = LocalDate.parse("2019-10-28"),
+        imageResource = R.drawable.photo_david
+    )
+
     val people = Teams(
         listOf(
+            Studio(
+                name = "Kalmar",
+                logoResource = R.drawable.logo_kalmar,
+                employees = listOf(
+                    frida,
+                    marthin,
+                    mikael,
+                    david,
+                )
+            ),
             Studio(
                 name = "Åre / Östersund",
                 logoResource = R.drawable.logo_osd,
