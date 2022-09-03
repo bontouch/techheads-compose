@@ -134,6 +134,42 @@ object EmployeeData {
         imageResource = R.drawable.photo_david
     )
 
+    private val madeleine = Employee(
+        name = "Madeleine Stenqvist",
+        role = "QA",
+        team = null,
+        notes = "Loves finding bugs!",
+        startDate = LocalDate.parse("2020-08-12"),
+        imageResource = R.drawable.photo_madeleine
+    )
+
+    private val emil = Employee(
+        name = "Emil Aleborn",
+        role = "Android Developer",
+        team = null,
+        notes = "Loves Kotlin!",
+        startDate = LocalDate.parse("2021-03-01"),
+        imageResource = R.drawable.photo_emil
+    )
+
+    private val jimmy = Employee(
+        name = "Jimmy Bernljung",
+        role = "Cloud Developer",
+        team = null,
+        notes = "",
+        startDate = LocalDate.parse("2019-10-28"),
+        imageResource = R.drawable.photo_jimmy
+    )
+
+    private val andreas = Employee(
+        name = "Andreas Lengqvist",
+        role = "iOS Developer",
+        team = null,
+        notes = "",
+        startDate = LocalDate.parse("2019-10-28"),
+        imageResource = R.drawable.photo_andreas
+    )
+
     val people = Teams(
         listOf(
             Studio(
@@ -144,6 +180,10 @@ object EmployeeData {
                     marthin,
                     mikael,
                     david,
+                    madeleine,
+                    emil,
+                    jimmy,
+                    andreas
                 )
             ),
             Studio(
