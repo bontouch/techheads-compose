@@ -161,6 +161,15 @@ object EmployeeData {
         imageResource = R.drawable.photo_jimmy
     )
 
+    private val ellen = Employee(
+        name = "Ellen Connysson",
+        role = "QA",
+        team = null,
+        notes = "Loves finding bugs!",
+        startDate = LocalDate.parse("2021-02-22"),
+        imageResource = R.drawable.photo_ellen
+    )
+
     private val andreas = Employee(
         name = "Andreas Lengqvist",
         role = "iOS Developer",
@@ -168,6 +177,15 @@ object EmployeeData {
         notes = "",
         startDate = LocalDate.parse("2019-10-28"),
         imageResource = R.drawable.photo_andreas
+    )
+
+    private val daniel = Employee(
+        name = "Daniel Stenberg",
+        role = "Designer",
+        team = null,
+        notes = "Loves the user experience!",
+        startDate = LocalDate.parse("2020-01-15"),
+        imageResource = R.drawable.photo_daniel
     )
 
     val people = Teams(
@@ -183,7 +201,9 @@ object EmployeeData {
                     madeleine,
                     emil,
                     jimmy,
-                    andreas
+                    ellen,
+                    andreas,
+                    daniel
                 )
             ),
             Studio(
