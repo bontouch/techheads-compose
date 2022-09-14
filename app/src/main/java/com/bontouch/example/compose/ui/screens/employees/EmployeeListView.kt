@@ -22,8 +22,6 @@ fun EmployeesListView(
     onEmployeeViewPositioned: (itemIndex: Int, LayoutCoordinates) -> Unit
 ) {
 
-    val scrollState = rememberScrollState()
-
     LazyColumn(
         modifier = Modifier
             .fillMaxSize()

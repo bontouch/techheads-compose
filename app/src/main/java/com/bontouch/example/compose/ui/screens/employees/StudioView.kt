@@ -21,8 +21,8 @@ import com.bontouch.example.compose.R
 @Composable
 fun TeamViewPreview() {
     StudioView(
-        city = "Åre / Östersund",
-        logoResource = R.drawable.logo_osd
+        city = "Kalmar",
+        logoResource = R.drawable.logo_kalmar
     )
 }
 

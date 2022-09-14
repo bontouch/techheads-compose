@@ -34,7 +34,7 @@ class EmployeesViewModel : ViewModel() {
                 ListItem.TechHeadsLogo
             )
 
-            val duplicates = if (manyItems) 100 else 1
+            val duplicates = if (manyItems) 10 else 1
 
             for (i in 1..duplicates) {
                 teams.studios.forEach { team ->
